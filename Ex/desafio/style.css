@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'idroid' ;
+    src: url(idroid/IDroid.otf) format(opentype);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightgreen;
+    font-family: 'arial';
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom , #36a34ee5 ,#1f7426, #0e3111 );
+    width: 100%;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+header > p{
+    text-align: center;
+    color: white;
+    
+}
+nav{
+    
+   width: 450px;
+    padding: 10px;
+    font: bolder;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav > a{
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+a#ini:hover  {
+    background-color: #0e3111;
+   display: inline;
+   text-decoration: underline;
+}
+a#not:hover{
+    background-color: #0e3111;
+    display: inline;
+    text-decoration: underline;
+}
+a#curi:hover  {
+    background-color:#0e3111;
+   display:inline;
+   text-decoration: underline;
+   
+}
+a#fale:hover{
+    background-color:#0e3111;
+    display: inline;
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main > h1{
+    font-family: "idroid";
+    color: #0e3111;
+}
+main > p{
+    text-indent: 20px;
+    padding: 25px;
+    text-align: justify;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    
+    
+}
+main > h2{
+    font-family: 'idroid';
+    text-indent: 30px;
+    color: #0e3111;
+    background-image: linear-gradient(to right,#43db64e5,#ffffff);
+}
+main p > a{
+    text-decoration: none;
+    color: #229b2c;
+    background-color: #83E1AD;
+}
+main p > a:hover{
+    text-decoration: underline;
+}
+main picture#centro{
+    margin-left: 30%;
+}
+aside{
+    background-color:#83E1AD;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+ aside > h3{
+  color: rgb(247, 245, 245);
+  font: bolder 'Verdana';
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #227044;
+  margin: -10px -10px 0px -10px;
+}
+
+aside  a {
+    color: #227044;
+    font-weight: bold;
+    text-decoration: none;
+   
+}
+aside a:hover{
+    text-decoration: underline;
+}
+aside > ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+
+strong{
+    color:#426d46 ;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: #16491a;
+    margin-top: 30px;
+    padding: 5px;
+    
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+footer  a:hover{
+    text-decoration: underline;
+    color: #2a8632;
+}
+
+    
+

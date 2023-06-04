@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="fivicon.png" type="image/x-icon">
+    <title>Midias Em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abriri esse site em varios dispositivo diferentes ou simplesmente aumente o tamanho  do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width:  1050px)" srcset="imagens/medium.png" type="image/png">
+        <img src="imagens/grande.png" alt="foto Grande">
+    </picture>
+
+
+    <h2>Reproduzindo Áudio</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    
+    <audio preload="metadata" controls> 
+        <source src="midia/sahake.mp3" type="audio/mpeg">
+        <source src="midia/sahake.mp3" type="audio/ogg">
+        <source src="midia/sahake.mp3" type="audio/wav">
+        <p>infelismente o seu navegador nao consegue reproduzir áudio <a href="midia/sahake.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
