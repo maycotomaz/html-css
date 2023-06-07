@@ -6,6 +6,11 @@
   
   @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
 
+  :root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:  'Passion One', cursive;
+    --font3: 'Sriracha', 'cursive';
+  }
 
 *{
     margin: 0px;
@@ -14,9 +19,9 @@
 html, body{
     background-color: darkgray;
     max-height: 100%vh;
+    font-family: var(--font1);
 }
 body{
-
     background-size: cover;
     background: black url(imagens/background001.jpg)  center center no-repeat fixed;
     
@@ -31,8 +36,8 @@ header{
 }
 header h1{
     padding-top: 50px;
-    font-family: 'Passion One'   ;
-    font-size: 3.5em;
+    font-family: var(--font2);
+    font-size: 7vw;
     font-weight: 400;
     font-variant: small-caps; 
 }
@@ -40,9 +45,11 @@ header p{
     padding-bottom: 30px;
     font-weight: bolder;
     color: white;
+    
 }
 
 a{
+    font-size: large;
     color: white;
     text-decoration: none;
     font-weight: bolder;
@@ -54,16 +61,19 @@ section{
     padding-top: 10vh;
     padding-bottom: 10VH;
     padding-left: 30px;
+    font-size: 3.5vw;
 }
 section.normal{
     background-color: white;
-    font-family: 'Sriracha', 'cursive';
+    font-family: var(--font3);
     font-size: 1.5em;
     text-align: left;
     line-height: 2em;
     padding: 60px;
 }
 section.imagen{
+    padding: 5px;
+    display: inline-block;
     font-family: 'Sriracha', 'cursive';
     color: white;
     line-height: 2em;
