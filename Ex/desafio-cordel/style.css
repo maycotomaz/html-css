@@ -21,11 +21,7 @@ html, body{
     max-height: 100%vh;
     font-family: var(--font1);
 }
-body{
-    
-    
-    
-}
+
 
 header{
     background-color: black;
@@ -79,20 +75,22 @@ section.imagen{
     line-height: 2em;
     text-align: left;
     font-size: 1.5em;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.534);
 }
 section.imagen > p{
     background-color: rgba(0, 0, 0, 0.233);
-    width: 400px;
+    width: 300px;
     display: inline-block;
     padding: 5px;
 }
 section#img01{
+    
+    background: black url(imagens/background001.jpg)  right center no-repeat fixed;
     background-size: cover;
-    background: black url(imagens/background001.jpg)   center no-repeat fixed;
 }
 section#img02{
+    background: black url(imagens/background002.jpg)  right center no-repeat fixed;
     background-size: cover;
-    background: black url(imagens/background002.jpg)   center no-repeat fixed;
 }
 
 footer {
