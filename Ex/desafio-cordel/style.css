@@ -22,8 +22,7 @@ html, body{
     font-family: var(--font1);
 }
 body{
-    background-size: cover;
-    background: black url(imagens/background001.jpg)  center center no-repeat fixed;
+    
     
     
 }
@@ -63,6 +62,9 @@ section{
     padding-left: 30px;
     font-size: 3.5vw;
 }
+section > p{
+    padding-bottom: 2em;
+}
 section.normal{
     background-color: white;
     font-family: var(--font3);
@@ -72,16 +74,25 @@ section.normal{
     padding: 60px;
 }
 section.imagen{
-    padding: 5px;
-    display: inline-block;
     font-family: 'Sriracha', 'cursive';
     color: white;
     line-height: 2em;
+    text-align: left;
     font-size: 1.5em;
 }
 section.imagen > p{
     background-color: rgba(0, 0, 0, 0.233);
     width: 400px;
+    display: inline-block;
+    padding: 5px;
+}
+section#img01{
+    background-size: cover;
+    background: black url(imagens/background001.jpg)   center no-repeat fixed;
+}
+section#img02{
+    background-size: cover;
+    background: black url(imagens/background002.jpg)   center no-repeat fixed;
 }
 
 footer {
