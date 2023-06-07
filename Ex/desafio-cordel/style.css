@@ -41,14 +41,8 @@ header p{
     text-align: center;
     
 }
-main{
-    background-color: rgb(255, 255, 255);
-    max-width: 100%vh;
-    height: 400px;
-    padding-top: 60px;
-    
-}
-main p {
+
+section p {
     
     font-family: 'Sriracha', 'cursive';
     font-size: 1.5em;
@@ -64,23 +58,17 @@ section p{
     max-height: 400px;
     padding-bottom: 60px;
 }
-main  aside  {
-    background-color: white;
-    padding-bottom: 60px;
-}
-article{
-    background: black url(imagens/background002.jpg) center center no-repeat fixed;
-    max-width: 100%vh;
-    max-height: 100%vh;
-}
-article > p{
+
+
+p{
     color: white;
     background-color:rgba(0, 0, 0, 0.363) ;
    
     padding-bottom: 60px;
     padding-top: 30px;
 }
-footer{
+footer > p{
+    
     background-color: black;
     color: white;
 }
