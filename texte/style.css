@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+  :root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2:  'Passion One', cursive;
+    --font3: 'Sriracha', 'cursive';
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    background-color: darkgray;
+    max-height: 100%vh;
+    font-family: var(--font1);
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+header h1{
+    padding-top: 50px;
+    font-family: var(--font2);
+    font-size: 7vw;
+    font-weight: 400;
+    font-variant: small-caps; 
+}
+header p{
+    padding-bottom: 30px;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+a{
+    font-size: large;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10VH;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+section > p{
+    padding-bottom: 2em;
+}
+section.normal{
+    background-color: white;
+    font-family: var(--font3);
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 2em;
+    padding: 60px;
+}
+section.imagen{
+    font-family: 'Sriracha', 'cursive';
+    color: white;
+    line-height: 2em;
+    text-align: left;
+    font-size: 1.5em;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.534);
+}
+section.imagen > p{
+    background-color: rgba(0, 0, 0, 0.233);
+    width: 300px;
+    display: inline-block;
+    padding: 5px;
+}
+section#img01{
+    
+    background: black url(imagens/background001.jpg)  right center no-repeat fixed;
+    background-size: cover;
+}
+section#img02{
+    background: black url(imagens/background002.jpg)  right center no-repeat fixed;
+    background-size: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
