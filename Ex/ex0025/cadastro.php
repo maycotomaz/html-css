@@ -1,4 +1,0 @@
-oal muindo
-<var>
-
-</var>
