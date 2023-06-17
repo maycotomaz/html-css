@@ -6,6 +6,96 @@
     <title>formulario</title>
 </head>
 <body>
-    <h1></h1>
+    <h1>formularios</h1>
+    <form action="php.php" method="get">
+        <p>
+            <label for="iest">Estado: </label>
+            <select name="est" id="iest">
+                <option name="" id="" selected>--- Escolha ---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="PB">Paraiba</option>
+                    <option value="RN">Rio Grande Do Norte</option>
+                    <option value="PE">Pernabunco</option>
+                    <option value="MA">Maramhão</option>
+                    <option value="PI">Piaui</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+                <optgroup label="Região Norte">
+                    <option value="AM">Amazonas</option>
+                    <option value="RR">Roraima</option>
+                    <option value="AP">Amapá</option>
+                    <option value="PA">Pará</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="AC">Acre</option>
+                </optgroup>
+                <optgroup label="Região Centro-oeste">
+                    <option value="Mt">Mato Grosso</option>
+                    <option value="MS">Mato Grosso Do Sul</option>
+                    <option value="GO">Goiás</option>
+                </optgroup>
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="RS">Rio Grande Do Sul</option>
+                    <option value="SC">Santa Catarina</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof" placeholder="Profissão">
+            <datalist id="lstprof">
+                <option >Administrador</option>
+                <option >Contabilidade</option>
+                <option >autonomo</option>
+                <option >Auxiliar</option>
+                <option >Professor</option>
+                <option >Desenvolvedor</option>
+                <option >Administração</option>
+                <option >Administração Pública</option>
+                <option >Agronegócios e Agropecuária</option>
+                <option >Ciências Aeronáuticas</option>
+                <option>Ciências Atuariais</option>
+                <option>Ciências Contábeis</option>
+                <option>Ciências Econômicas</option>
+                <option>Comércio Exterior</option>
+                <option >Defesa e Gestão Estratégica Internacional</option>
+                <option >Gastronomia</option>
+                <option >Gestão Comercial</option>
+                <option >Gestão de Recursos Humanos</option>
+                <option >Gestão de Segurança Privada</option>
+                <option >Gestão de Seguros</option>
+                <option >Gestão de Turismo</option>
+                <option >Gestão Financeira</option>
+                <option >Gestão Pública</option>
+                <option >Hotelaria</option>
+                <option >Logística</option>
+                <option >Marketing</option>
+                <option">Negócios Imobiliários</option>
+                <option >Pilotagem profissional de aeronaves</option>
+                <option >Processos Gerenciais</option>
+                <option >Segurança Pública</option>
+                <option >Turismo</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="20" rows="7"></textarea>
+        </p
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
 </body>
 </html>
