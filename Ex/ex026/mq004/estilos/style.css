@@ -1,9 +1,7 @@
 @charset "UTF-8";
 
 /*mobile first*/
-@media screen and (orientation:portrait) {
-    
-}
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
@@ -15,7 +13,11 @@ body, html{
     height: 100vh;
    
 }
-
+body{
+    background: black url(../imagens/back-phone.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
 main{
     background-color: rgba(255, 255, 255, 0.534);
     margin: auto;
@@ -31,20 +33,14 @@ h1{
 }
 img{
     display: block;
-    margin: auto;
-}
+    margin: auto;}
 img#phone{
-    display: block;
-}
+    display: block;}
 img#tablet{
-    display: none;
-}
+    display: none;}
 img#tv{
-    display: none;
-}
+    display: none;}
 img#pc{
-    display: none;
-}
+    display: none;}
 img#print{
-    display: none;
-}
+    display: none;}
