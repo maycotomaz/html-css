@@ -4,7 +4,7 @@
     
 }
 
-@media screen and (min-width:320px)  and (max-width:480){
+@media screen and (min-width:320px)  and (max-width:600px){
     body{
         background-image: url(../imagens/back-phone.jpg);
     }
@@ -15,8 +15,11 @@
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px){
-    
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
 }
+
 @media screen and (min-width:1025px) and (max-width:1200px){
     
 }
